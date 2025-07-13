@@ -1,0 +1,275 @@
+/*Estilos Globais*/
+/* Estes estilos são aplicados a todos os elementos da página, garantindo uma aparência consistente e limpa */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+.limitar-secao{
+    width:100%;
+    max-width:1024px;
+    margin:0 auto;
+}
+/*Fim dos Estilos Globais*/
+
+/*Início do Topo de Home*/
+.container-topo{
+   position: relative;
+   padding: 35px 50px;
+   max-height: 130px;
+}
+.topo-logo{
+    position: relative;
+}
+.topo-logo h1{
+    position:absolute;
+    top:-5px;
+    left:85px;
+    font-size: 25px;
+}
+.topo-logo p{
+   position:absolute;
+   top:35px;
+   left:85px; 
+   color:#2f86d6;
+   font-weight: 600;
+}
+.topo-logo img{
+    width:70px;
+    margin-top: -10px;
+}
+.topo-logo div{
+    position:absolute;
+    top:0;
+    left: 100px;
+}
+
+.navegacao{
+    position:absolute;
+    top:55px;
+    right: 25px;
+}
+.navegacao a{
+    color:#233032;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+}
+/*Fim do topo de Home*/
+
+/*Início do Banner*/
+div .banner{
+    position:relative;
+    background-color:#2f86d6;
+    height:450px;
+}
+.img-banner{
+    width: 420px;
+    position:absolute;
+    right:230px;
+    top:40px;  
+}
+.texto-banner{
+    max-width: 380px;
+    max-height: 400px;
+    color:#fff;
+    position: absolute;
+    top: 100px;
+    left: 230px;  
+    font-size: 15px;
+    padding-right: 10px;
+}
+.paragrafo-banner{
+    width: 440px;
+    margin: 14px 0px;
+    padding-right:80px;
+    font-size: 12px;
+    word-spacing: 3px;
+}
+/*Fim do Banner*/
+
+/*Início do Anuncio1*/
+
+.container-anuncio1{
+    width: 100%;
+    min-height:105px;
+    padding: 20px 0;
+    background-color: #233032;
+    position: relative;
+}
+.texto-anuncio1{
+    color: #fff; 
+}
+.anuncio1 .link-anuncio1{
+    position: absolute;
+    right:180px;
+    top:30px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #2f86d6;
+    padding: 10px;
+}
+.link-anuncio1, a {
+    text-decoration: none;
+    color: #fff;
+}
+/*Fim do Anuncio1*/
+
+/*Início da seção de informações*/
+.informacoes-texto{
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:70px;
+    
+}
+.informacoes-texto span{
+    color: #2f86d6;
+    font-weight: 800;
+}
+.container-informacoes .informacoes{
+    max-width: 950px;
+    margin: 50px 40px;
+    display: inline-flex; 
+}
+.informacoes img{
+    width:80px;
+}
+.informacoes1, .informacoes2, .informacoes3{
+    width: 400px;
+    text-align: center; 
+}
+.informacoes1 p, .informacoes2 p, .informacoes3 p{
+    font-size: 14px;
+    margin-top: 10px;   
+}
+/*Fim da seção de informações*/
+
+/*Início da seção de planos*/
+.texto-planos{
+    text-align: center;
+    margin: 20px 0;
+}
+.texto-planos span{
+    color: #2f86d6;
+    font-weight: 800;
+}
+.container-planos{
+    padding: 30px;
+    background-color: #eff0f1;
+}
+table{
+    height: 450px;
+    border-radius: 4px;
+    margin:auto;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+    margin-bottom: 40px;
+}
+table thead th{
+    width:190px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+table thead th img{
+    width: 100px;
+    margin-right: 10px;
+}
+table thead th p{
+    width:100px;
+    margin:auto;
+    color: #b7b8b9;
+    font-weight: 600;
+    font-size: 10px;
+    
+}
+table tbody .linha-cor{
+    text-align: center;
+    height: 10px;
+    background-color: #f0f2f3;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+table tbody .linha{
+    text-align: center;
+    font-size: 14px;
+    height:10px;
+    background-color: #fff;
+}
+/*Fim da seção de planos*/
+
+/*Início do Anuncio2*/
+.container-anuncio2{
+    width: 100%;
+    min-height:105px;
+    padding: 20px 0;
+    background-color: #2f86d6;
+    position: relative;
+}
+.texto-anuncio2{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 165px;
+}
+.anuncio2 .link-anuncio2  {
+    position: absolute;
+    top:10px;
+    right:180px;
+    top:30px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #233032;
+    padding: 10px;
+}
+/*Fim do Anuncio2*/
+
+/*Início da seção de contatos*/
+.logo-rodape{
+    position: relative;
+    max-width:250px;
+    margin: 40px auto 25px auto;
+}
+.logo-rodape img{
+    width: 70px;
+    margin: 0 auto;
+}
+.logo-rodape h1{
+    position: absolute;
+    font-size: 25px;
+    top: 8px;
+    left: 85px;
+}
+.logo-rodape p{
+    position: absolute;
+    top:40px;
+    left:85px;
+    font-size: 12px;
+    color: #2f86d6;
+    font-weight: 600;
+}
+.contatos{
+    max-width: 640px;
+    margin:0 auto 40px auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 600;
+}
+/*Fim da seção de contatos*/
+
+/*Início da seção de desenvolvedor*/
+.container-desenvolvedor p{
+    text-align: center;
+    margin: 0 auto;
+    background-color:#f0f2f3;
+    padding:15px 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.container-desenvolvedor span{
+    color: #2f86d6;
+    font-weight: 800;
+}
+/*Fim da seção de desenvolvedor*/
